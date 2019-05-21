@@ -7,7 +7,7 @@ read = lambda filepath: codecs.open(filepath, 'r', 'utf-8').read()
 
 setup(
     name='djangocms-device-mockups',
-    version='1.0.0',
+    version='1.0.1',
     description='Allows you to add the device mockups plugin to a cms page',
     long_description=read(os.path.join(os.path.dirname(__file__), 'README.rst')),
     author='pixelsign, Michael Carder',
